@@ -1,0 +1,38 @@
+#n{
+    width: 100px;
+    height: 100px;
+    animation: myanime;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+animation-iteration-count: infinite;
+    position: relative;
+    border-radius: 100px;
+    
+}
+/*
+    width: 100px;
+    height: 100px;
+    animation: myanime;
+    animation-duration: 8s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    position: relative;
+}*/
+@keyframes myanime{
+    from{
+        background-color: red;
+       
+        
+    }
+    to{
+        background-color: green;
+       
+    }/*
+    0%{background-color:red; left: 100px;}
+    25%{background-color:green; top:  100px;}
+    50%{background-color: blueviolet; left: 100px;}
+   75%{background-color: yellowgreen;bottom: 100px;}
+    100%{background-color: orange; right: 100px;}*/
+    
+}

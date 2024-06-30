@@ -1,0 +1,32 @@
+div{
+    width: 100px;
+    height: 120px;
+    display: inline;
+}
+#one{
+background-color: aqua;
+position: absolute;
+top: 50px;
+
+}
+#two{
+    background-color: rgb(56, 82, 56);
+    position: static;
+}
+#three{
+    background-color: blue;
+    position: fixed;
+    top: 500px;
+
+}
+#four
+{
+    background-color: blue;
+    position: sticky;
+    top: 500px;
+
+}
+body{
+    background-image: url(travel.png);
+    background-size: contain;
+}
